@@ -1,0 +1,15 @@
+<div>
+  <h1>Editar Sócio</h1>
+  <div>
+    <label>Nome:</label>
+    <input [(ngModel)]="data.nome">
+    <label>CPF:</label>
+    <input [(ngModel)]="data.cpf">
+    <label>Empresa:</label>
+    <!-- <select [(ngModel)]="data.nome"> -->
+  </div>
+  <div>
+    <button (click)="onNoClick()">Cancelar</button>
+    <button (click)="save()">Salvar</button>
+  </div>
+</div>

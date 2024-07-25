@@ -1,0 +1,17 @@
+<div>
+  <div class="col-12">
+    <div class="row p-3">
+      <h1>Editar empresa</h1>
+    </div>
+    <div class="row form-group p-3">
+      <label for="empresa_nome">Nome</label>
+      <input [(ngModel)]="data.nome" class="form-control" id="empresa_nome" placeholder="Digite o Nome">
+    </div>
+    <div class="row form-group p-3">
+      <label for="empresa_endereco">Endereço</label>
+      <input [(ngModel)]="data.endereco" class="form-control" id="empresa_endereco" placeholder="Endereço">
+    </div>
+  </div>
+  <button class="btn btn-primary float-left" (click)="onNoClick()">Cancelar</button>
+  <button type="submit" class="btn btn-primary float-right" (click)="save()">Salvar</button>
+</div>

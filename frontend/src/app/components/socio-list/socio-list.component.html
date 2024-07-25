@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>CPF</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let socio of socios">
+      <td scope="col">{{ socio.id }}</td>
+      <td scope="col">{{ socio.nome }}</td>
+      <td scope="col">{{ socio.cpf }}</td>
+      <td scope="col">
+        <button (click)="editSocio(socio)">Editar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -8,11 +8,11 @@ Teste para empresa Vox Tecnologia
 
 ## Requisitos
 
-- PHP 7.4+
+- PHP 8.2+
 - Composer
-- Symfony Framework na última versão LTS
+- Symfony Framework 6.1.12
 - PostgreSQL
-- Node.js e Angular CLI
+- Node.js 20.15 e Angular CLI 18.1
 
 ## Configuração do Ambiente
 
@@ -35,6 +35,7 @@ Teste para empresa Vox Tecnologia
     ```bash
     cd frontend
     npm i
+    
     ```
 
 ## Estrutura do Projeto
