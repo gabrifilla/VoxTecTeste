@@ -19,7 +19,7 @@ Teste para empresa Vox Tecnologia
 1. Clone o repositório:
     ```bash
     git clone (https://github.com/gabrifilla/VoxTecTeste.git)
-    cd QuadroSocietario
+    cd VoxTecTeste
     ```
 
 2. Configure o backend:
